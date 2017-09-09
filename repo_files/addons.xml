@@ -1,20 +1,43 @@
 <addons>
-<addon id="plugin.video.rainiptv"
-       name="RainIPTV"
+
+<addon id="plugin.video.megahosting"
+       name="Mega Hosting"
        version="1.0"
        provider-name="sClarke">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.requests" />
+	<import addon="script.module.metahandler"/>
   </requires>
   <extension point="xbmc.python.pluginsource"
             library="default.py">
         <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary lang="en">RainIPTV</summary>
+    <summary lang="en">Mega Hosting</summary>
     <language>en</language>
-    <description lang="en">RainIPTV Official Addon - Supplier of Great Quality and Stable Streams</description>
+    <description lang="en">Mega Hosting Official Addon - Supplier of Great Quality and Stable VOD Content</description>
+     <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.megahostingtv"
+       name="Mega Hosting TV"
+       version="1.0"
+       provider-name="sClarke">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.requests" />
+	<import addon="script.module.metahandler"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Mega Hosting TV</summary>
+    <language>en</language>
+    <description lang="en">Mega Hosting TVOfficial Addon - Supplier of Great Quality and Stable Content</description>
      <platform>all</platform>
   </extension>
 </addon>
