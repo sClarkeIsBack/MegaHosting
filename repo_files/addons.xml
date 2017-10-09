@@ -42,4 +42,24 @@
   </extension>
 </addon>
 
+<addon id="plugin.video.wwmediaiptv"
+       name="WW Media IPTV"
+       version="1.0"
+       provider-name="sClarke">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.requests" />
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">WW Media IPTV</summary>
+    <language>en</language>
+    <description lang="en">WW Media IPTV Official Addon - Supplier of Great Quality and Stable Streams</description>
+     <platform>all</platform>
+  </extension>
+</addon>
+
 </addons>
