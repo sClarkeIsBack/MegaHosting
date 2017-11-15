@@ -1,7 +1,7 @@
 <addons>
 
-<addon id="plugin.video.megahosting"
-       name="Mega Hosting"
+<addon id="plugin.video.wwmediavod"
+       name="WW Media VOD"
        version="1.0"
        provider-name="sClarke">
   <requires>
@@ -14,12 +14,13 @@
         <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary lang="en">Mega Hosting</summary>
+    <summary lang="en">WW Media VOD</summary>
     <language>en</language>
-    <description lang="en">Mega Hosting Official Addon - Supplier of Great Quality and Stable VOD Content</description>
+    <description lang="en">WW Media VOD Official Addon - Supplier of Great Quality and Stable VOD Content</description>
      <platform>all</platform>
   </extension>
 </addon>
+
 
 <addon id="plugin.video.megahostingtv"
        name="Mega Hosting TV"
